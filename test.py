@@ -39,6 +39,7 @@ def experiment(player_agent, opponent_agent_pool, scenario, repeat_nums=10):
                         opponent_agent = random.choice(opponent_agent_pool)
                         agents_dict[p] = opponent_agent()
                 # save each game's JSON for visualization (unique filename per repeat and power)
+                print(f'Running Scenario {scenario}, Round {r+1}, Player Power: {i} ...')
                 save_name = f'outputs_{scenario}/game_r{r}_p{i}.json'
                 os.makedirs(os.path.dirname(save_name), exist_ok=True)
                 if os.path.exists(save_name):
@@ -74,5 +75,5 @@ if __name__ == "__main__":
     print('Evaluating Scenario 1 ...')
     experiment(player_agent=AggressiveAgent, opponent_agent_pool=[StaticAgent], scenario=1, repeat_nums=10)
 
-    # print('Evaluating Scenario 2 ...')
-    # experiment(player_agent=AggressiveAgent, opponent_agent_pool=[RandomAgent, AttitudeAgent, AttitudeAgent, GreedyAgent, GreedyAgent], scenario=2, repeat_nums=10)
+    print('Evaluating Scenario 2 ...')
+    experiment(player_agent=AggressiveAgent, opponent_agent_pool=[RandomAgent, AttitudeAgent, AttitudeAgent, GreedyAgent, GreedyAgent], scenario=2, repeat_nums=10)

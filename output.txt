@@ -1,28 +1,220 @@
-['A BUD - RUM', 'F TRI - ADR', 'A VIE - BOH'] S1901M
-['A RUM H', 'A BOH - GAL'] F1901M
-['A BUD - SER', 'A RUM - BUL', 'A GAL - SIL'] S1902M
-['A SER H', 'A BUL H', 'A SIL - GAL'] F1902M
-['A BUL - GRE', 'A TRI - VEN VIA', 'A BUD - RUM', 'A SER - ALB', 'A GAL - SIL'] S1903M
-['A GRE H', 'A ALB - VEN VIA', 'A RUM - GAL', 'A TRI - BUD', 'A SIL - PRU'] F1903M
-['A ALB - VEN VIA', 'A PRU - WAR', 'A GAL S A PRU - WAR', 'A BUD - RUM', 'A TRI - VIE', 'A GRE - BUL'] S1904M
-['A WAR H', 'A ALB - VEN VIA', 'A VIE - TRI', 'A BUL - SER', 'A GAL - BOH', 'A RUM - BUD'] F1904M
-['A ALB - VEN VIA', 'A BOH - TYR', 'A BUD - VIE', 'A SER - BUL', 'A WAR - GAL', 'A TRI - ALB'] S1905M
-['A TYR - VEN', 'F ADR S A TYR - VEN', 'A TRI S A TYR - VEN', 'A ALB - SER', 'A VIE - BOH', 'A BUL - GRE', 'A GAL - BUD'] F1905M
-['A BOH - GAL', 'A BUD - RUM', 'A GRE - BUL', 'A SER - ALB', 'A TRI - VIE', 'A VEN - TYR'] S1906M
-['A ALB - SER', 'A BUL - GRE', 'A GAL - WAR', 'A RUM - UKR', 'A TYR - BOH', 'A VIE - BUD'] F1906M
-['A WAR - MOS', 'A UKR S A WAR - MOS', 'A TRI - ALB', 'A BOH - TYR', 'A BUD - RUM', 'A SER - BUL', 'A GRE - SER'] S1907M
-['A MOS H', 'A UKR - SEV', 'A RUM S A UKR - SEV', 'A ALB - TRI', 'A BUL - GRE', 'A SER - BUD', 'A TYR - BOH'] F1907M
-['A MOS - STP', 'A BOH - GAL', 'A BUD - VIE', 'A GRE - BUL', 'A RUM - UKR', 'A SEV - ARM', 'A TRI - SER'] S1908M
-['A MOS - STP', 'A ARM - SEV', 'A BUL - RUM', 'A GAL - WAR', 'A SER - BUD', 'A UKR - MOS', 'A VIE - BOH'] F1908M
-['A MOS - STP', 'A BOH - SIL', 'A WAR - PRU', 'A BUD - GAL', 'A RUM - BUL', 'A TRI - TYR', 'A UKR - WAR', 'A SEV - ARM'] S1909M
-['A MOS - STP', 'A PRU - BER', 'A SIL S A PRU - BER', 'A ARM - SEV', 'A BUL - RUM', 'A GAL - UKR', 'A TYR - BOH', 'A WAR - LVN'] F1909M
-['A MOS - STP', 'A BER - MUN', 'A BOH S A BER - MUN', 'A SIL S A BER - MUN', 'A BUD - GAL', 'A RUM - BUL', 'A SEV - ARM', 'A TRI - VIE', 'A UKR - WAR', 'A LVN - PRU'] S1910M
-['A MUN H', 'A MOS - STP', 'A ARM - SEV', 'A BOH - TYR', 'A BUL - RUM', 'A GAL - UKR', 'A PRU - LVN', 'A SIL - BER', 'A VIE - BUD', 'A WAR - MOS'] F1910M
-['A MOS - STP', 'A BER - KIE', 'A MUN S A BER - KIE', 'A SEV - ARM', 'A UKR - GAL', 'A WAR - PRU', 'A RUM - BUL', 'A BUD - SER', 'A TRI - VIE', 'A TYR - BOH', 'A LVN - MOS'] S1911M
-['A KIE H', 'A MOS - STP', 'A ARM - SEV', 'A BOH - SIL', 'A BUL - RUM', 'A GAL - WAR', 'A MUN - BER', 'A PRU - LVN', 'A SER - BUD', 'A VIE - TRI', 'A LVN - MOS'] F1911M
-['A MOS - STP', 'A KIE - DEN', 'A BER - MUN', 'A BUD - GAL', 'A PRU - LVN', 'A RUM - UKR', 'A SEV - ARM', 'A SIL - BOH', 'A TRI - VIE', 'A WAR - MOS', 'A LVN - PRU'] S1912M
-['A DEN H', 'A MOS - STP', 'A ARM - SEV', 'A BOH - SIL', 'A GAL - BUD', 'A MUN - BER', 'A PRU - LVN', 'A UKR - RUM', 'A VIE - TRI', 'A WAR - MOS', 'A LVN - PRU'] F1912M
-['A MOS - STP', 'A DEN - SWE', 'A SEV - ARM', 'A RUM - BUL', 'A BUD - GAL', 'A LVN - MOS', 'A TRI - SER', 'A WAR - UKR', 'A PRU - LVN', 'A SIL - BOH', 'A BER - MUN'] S1913M
-['A SWE H', 'A MOS - STP', 'A ARM - SEV', 'A BOH - SIL', 'A BUL - RUM', 'A GAL - WAR', 'A MUN - BER', 'A PRU - LVN', 'A SER - BUD', 'A UKR - MOS', 'A LVN - PRU'] F1913M
-['A MOS - STP', 'A SWE - NWY', 'A BER - KIE', 'A BUD - GAL', 'A PRU - LVN', 'A RUM - BUL', 'A SEV - ARM', 'A SIL - BOH', 'A TRI - VIE', 'A UKR - MOS', 'A WAR - PRU', 'A LVN - WAR'] S1914M
-['A NWY H', 'A MOS - STP', 'A KIE - HOL', 'A ARM - SEV', 'A BOH - SIL', 'A BUL - RUM', 'A GAL - BUD', 'A PRU - BER', 'A UKR - MOS', 'A VIE - TRI', 'A WAR - LVN', 'A LVN - PRU'] F1914M
+S1901M
+	Picking new target
+	Target: BRE, no_luck: {'BRE'}, target_count: 0
+	 ['F EDI - NTH', 'F LON - ENG', 'A LVP - WAL']
+F1901M
+	 F ENG - BEL
+	 F NTH - DEN
+	Target: BRE, no_luck: {'BRE'}, target_count: 1
+	 ['F ENG - BEL', 'F NTH - DEN', 'A WAL - LON']
+W1901A
+S1902M
+	 F DEN - SWE
+	 F BEL - HOL
+	Target: BRE, no_luck: {'BRE'}, target_count: 2
+	 ['F DEN - SWE', 'F BEL - HOL', 'A EDI - CLY', 'A LON - WAL', 'A LVP - YOR']
+F1902M
+	Target: BRE, no_luck: {'BRE'}, target_count: 3
+	 ['F SWE H', 'F HOL H', 'A CLY - EDI', 'A WAL - LON', 'A YOR - LVP']
+S1903M
+	 F SWE - NWY
+	Target: BRE, no_luck: {'BRE'}, target_count: 4
+	 ['F SWE - NWY', 'F HOL - NTH', 'A EDI - CLY', 'A LON - WAL', 'A LVP - YOR']
+F1903M
+	Picking new target
+	Target: KIE, no_luck: {'KIE', 'BRE'}, target_count: 0
+	 ['F NWY H', 'A CLY - EDI', 'A WAL - LON', 'A YOR - DEN VIA', 'F NTH C A YOR - DEN']
+W1903A
+S1904M
+	Target: KIE, no_luck: {'KIE', 'BRE'}, target_count: 1
+	 ['F NWY - NWG', 'A EDI - HOL VIA', 'F NTH C A EDI - HOL', 'A LON - YOR', 'A LVP - CLY', 'A DEN - SWE']
+F1904M
+	Target: KIE, no_luck: {'KIE', 'BRE'}, target_count: 2
+	 ['A SWE - DEN', 'A CLY - BEL VIA', 'F NWG C A CLY - BEL', 'F NTH C A CLY - BEL', 'A YOR - EDI', 'A HOL - RUH']
+W1904A
+S1905M
+	Target: KIE, no_luck: {'KIE', 'BRE'}, target_count: 3
+	 ['A RUH - KIE', 'A DEN S A RUH - KIE', 'F LON - ENG', 'A BEL - HOL VIA', 'F NTH C A BEL - HOL', 'A EDI - NWY VIA', 'F NWG C A EDI - NWY', 'A LVP - YOR']
+S1905R
+F1905M
+	 A NWY - STP
+	Target: KIE, no_luck: {'KIE', 'BRE'}, target_count: 4
+	 ['A KIE H', 'A NWY - STP', 'A YOR - BEL VIA', 'F NTH C A YOR - BEL', 'A DEN - SWE', 'A HOL - RUH']
+W1905A
+S1906M
+	 A NWY - STP
+	Picking new target
+	Target: MAR, no_luck: {'KIE', 'BRE', 'MAR'}, target_count: 0
+	 ['A NWY - STP', 'A RUH - MUN', 'A KIE S A RUH - MUN', 'A BEL - BUR', 'A SWE - DEN', 'A EDI - PIC VIA', 'F NTH C A EDI - PIC', 'F ENG C A EDI - PIC']
+S1906R
+F1906M
+	 A NWY - STP
+	Target: MAR, no_luck: {'KIE', 'BRE', 'MAR'}, target_count: 1
+	 ['A MUN H', 'A NWY - STP', 'A PIC - BRE', 'F ENG S A PIC - BRE', 'A KIE - RUH', 'A DEN - BEL VIA', 'F NTH C A DEN - BEL', 'A BUR - GAS']
+F1906R
+W1906A
+S1907M
+	 A NWY - STP
+	 A GAS - SPA
+	Target: MAR, no_luck: {'KIE', 'BRE', 'MAR'}, target_count: 2
+	 ['A NWY - STP', 'A GAS - SPA', 'A BEL - BUR', 'A BRE - PIC VIA', 'F ENG C A BRE - PIC', 'A MUN - TYR', 'A RUH - HOL', 'A EDI - CLY VIA', 'F NTH C A EDI - CLY', 'F NWG C A EDI - CLY', 'A LON - WAL']
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+F1907M
+	 A NWY - STP
+	Target: MAR, no_luck: {'KIE', 'BRE', 'MAR'}, target_count: 3
+	 ['A SPA H', 'A NWY - STP', 'A BUR - PAR', 'A PIC S A BUR - PAR', 'A TYR - PIE', 'A HOL - BEL VIA', 'F NTH C A HOL - BEL', 'A CLY - EDI VIA', 'F NWG C A CLY - EDI', 'A WAL - BRE VIA', 'F ENG C A WAL - BRE']
+F1907R
+W1907A
+S1908M
+	 A SPA - POR
+	 A NWY - STP
+	Target: MAR, no_luck: {'KIE', 'BRE', 'MAR'}, target_count: 4
+	 ['A SPA - POR', 'A NWY - STP', 'A BEL - BUR', 'A BRE - GAS', 'A PAR - BRE', 'A PIC - HOL VIA', 'F ENG C A PIC - HOL', 'F NTH C A PIC - HOL', 'A EDI - CLY VIA', 'F NWG C A EDI - CLY', 'A LON - WAL', 'A LVP - YOR', 'A PIE - TUS']
+F1908M
+	 A NWY - STP
+	Picking new target
+	Target: STP, no_luck: {'STP', 'KIE', 'BRE', 'MAR'}, target_count: 0
+	 ['A POR H', 'A NWY - STP', 'A BUR - MAR', 'A GAS S A BUR - MAR', 'A HOL - BEL VIA', 'F NTH C A HOL - BEL', 'A BRE - LON VIA', 'F ENG C A BRE - LON', 'A TUS - PIE', 'A CLY - EDI VIA', 'F NWG C A CLY - EDI', 'A WAL - LVP', 'A YOR - WAL']
+F1908R
+S1909M
+	 A NWY - STP
+	Target: STP, no_luck: {'STP', 'KIE', 'BRE', 'MAR'}, target_count: 1
+	 ['A NWY - STP', 'A BEL - CLY VIA', 'F ENG C A BEL - CLY', 'F NTH C A BEL - CLY', 'F NWG C A BEL - CLY', 'A GAS - BRE', 'A MAR - BUR', 'A PIE - TYR', 'A POR - SPA', 'A EDI - YOR', 'A LON - WAL', 'A LVP - EDI', 'A WAL - LON']
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+F1909M
+	 A NWY - STP
+	Target: STP, no_luck: {'STP', 'KIE', 'BRE', 'MAR'}, target_count: 2
+	 ['A NWY - STP', 'A BUR - BEL', 'A TYR - BOH', 'A BRE - DEN VIA', 'F ENG C A BRE - DEN', 'F NTH C A BRE - DEN', 'A SPA - GAS', 'A CLY - LVP', 'A EDI - NWY VIA', 'F NWG C A EDI - NWY', 'A LON - YOR', 'A WAL - LON', 'A YOR - EDI']
+S1910M
+	 A NWY - STP
+	Target: STP, no_luck: {'STP', 'KIE', 'BRE', 'MAR'}, target_count: 3
+	 ['A NWY - STP', 'A DEN - SWE', 'A BOH - GAL', 'A BEL - CLY VIA', 'F ENG C A BEL - CLY', 'F NTH C A BEL - CLY', 'F NWG C A BEL - CLY', 'A GAS - BRE', 'A EDI - YOR', 'A LON - WAL', 'A LVP - EDI', 'A WAL - LON', 'A YOR - LVP']
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - CLY
+--------------------------------
+F1910M
+	 A GAL - RUM
+	 A NWY - STP
+	Target: STP, no_luck: {'STP', 'KIE', 'BRE', 'MAR'}, target_count: 4
+	 ['A GAL - RUM', 'A NWY - STP', 'A SWE - FIN', 'A BRE - BEL VIA', 'F ENG C A BRE - BEL', 'A CLY - DEN VIA', 'F NWG C A CLY - DEN', 'F NTH C A CLY - DEN', 'A EDI - CLY', 'A LON - YOR', 'A LVP - EDI', 'A WAL - LON', 'A YOR - LVP']
+S1911M
+	 A FIN - STP
+	 A RUM - BUL
+	Picking new target
+	Target: MOS, no_luck: {'MOS', 'KIE', 'STP', 'BRE', 'MAR'}, target_count: 0
+	 ['A FIN - STP', 'A RUM - BUL', 'A NWY - SWE', 'A DEN - KIE', 'A BEL - BUR', 'A CLY - HOL VIA', 'F NWG C A CLY - HOL', 'F NTH C A CLY - HOL', 'A EDI - CLY', 'A LON - BRE VIA', 'F ENG C A LON - BRE', 'A LVP - WAL', 'A YOR - EDI']
+F1911M
+	 A FIN - STP
+	Target: MOS, no_luck: {'MOS', 'KIE', 'STP', 'BRE', 'MAR'}, target_count: 1
+	 ['A BUL H', 'A FIN - STP', 'A SWE - NWY', 'A BUR - MUN', 'A KIE - DEN', 'A HOL - BEL VIA', 'F NTH C A HOL - BEL', 'A BRE - LON VIA', 'F ENG C A BRE - LON', 'A CLY - LVP', 'A EDI - YOR VIA', 'F NWG C A EDI - YOR', 'F NTH C A EDI - YOR']
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
+--------------------------------
+W1911A
+S1912M
+	 A FIN - STP
+	 A BUL - GRE
+	Target: MOS, no_luck: {'MOS', 'KIE', 'STP', 'BRE', 'MAR'}, target_count: 2
+	 ['A FIN - STP', 'A BUL - GRE', 'A NWY - SWE', 'A MUN - SIL', 'A DEN - KIE', 'A BEL - BUR', 'A EDI - CLY VIA', 'F NTH C A EDI - CLY', 'F NWG C A EDI - CLY', 'A LON - BRE VIA', 'F ENG C A LON - BRE', 'A LVP - EDI', 'A WAL - LON', 'A YOR - LVP']
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A EDI - CLY
+--------------------------------
+F1912M
+	 A FIN - STP
+	Target: MOS, no_luck: {'MOS', 'KIE', 'STP', 'BRE', 'MAR'}, target_count: 3
+	 ['A GRE H', 'A FIN - STP', 'A SIL - BER', 'A KIE S A SIL - BER', 'A SWE - NWY', 'A BUR - MUN', 'A BRE - DEN VIA', 'F ENG C A BRE - DEN', 'F NTH C A BRE - DEN', 'A CLY - EDI VIA', 'F NWG C A CLY - EDI', 'A EDI - YOR', 'A LON - WAL', 'A LVP - CLY']
+F1912R

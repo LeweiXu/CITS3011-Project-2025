@@ -1,11 +1,2080 @@
 Evaluating Scenario 1 ...
+Running Scenario 1, Round 1, Player Power: AUSTRIA ...
+Running Scenario 1, Round 1, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+Running Scenario 1, Round 1, Player Power: FRANCE ...
+Running Scenario 1, Round 1, Player Power: GERMANY ...
+Running Scenario 1, Round 1, Player Power: ITALY ...
+Running Scenario 1, Round 1, Player Power: RUSSIA ...
+Running Scenario 1, Round 1, Player Power: TURKEY ...
+Running Scenario 1, Round 2, Player Power: AUSTRIA ...
+Running Scenario 1, Round 2, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+Running Scenario 1, Round 2, Player Power: FRANCE ...
+Running Scenario 1, Round 2, Player Power: GERMANY ...
+Running Scenario 1, Round 2, Player Power: ITALY ...
+Running Scenario 1, Round 2, Player Power: RUSSIA ...
+Running Scenario 1, Round 2, Player Power: TURKEY ...
+Running Scenario 1, Round 3, Player Power: AUSTRIA ...
+Running Scenario 1, Round 3, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+Running Scenario 1, Round 3, Player Power: FRANCE ...
+Running Scenario 1, Round 3, Player Power: GERMANY ...
+Running Scenario 1, Round 3, Player Power: ITALY ...
+Running Scenario 1, Round 3, Player Power: RUSSIA ...
+Running Scenario 1, Round 3, Player Power: TURKEY ...
+Running Scenario 1, Round 4, Player Power: AUSTRIA ...
+Running Scenario 1, Round 4, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+Running Scenario 1, Round 4, Player Power: FRANCE ...
+Running Scenario 1, Round 4, Player Power: GERMANY ...
+Running Scenario 1, Round 4, Player Power: ITALY ...
+Running Scenario 1, Round 4, Player Power: RUSSIA ...
+Running Scenario 1, Round 4, Player Power: TURKEY ...
+Running Scenario 1, Round 5, Player Power: AUSTRIA ...
+Running Scenario 1, Round 5, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - SWE
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - SWE
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - SWE
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - SWE
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - SWE
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - SWE
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - SWE
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A DEN - SWE
+--------------------------------
+Running Scenario 1, Round 5, Player Power: FRANCE ...
+Running Scenario 1, Round 5, Player Power: GERMANY ...
+Running Scenario 1, Round 5, Player Power: ITALY ...
+Running Scenario 1, Round 5, Player Power: RUSSIA ...
+Running Scenario 1, Round 5, Player Power: TURKEY ...
+Running Scenario 1, Round 6, Player Power: AUSTRIA ...
+Running Scenario 1, Round 6, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+Running Scenario 1, Round 6, Player Power: FRANCE ...
+Running Scenario 1, Round 6, Player Power: GERMANY ...
+Running Scenario 1, Round 6, Player Power: ITALY ...
+Running Scenario 1, Round 6, Player Power: RUSSIA ...
+Running Scenario 1, Round 6, Player Power: TURKEY ...
+Running Scenario 1, Round 7, Player Power: AUSTRIA ...
+Running Scenario 1, Round 7, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - EDI
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - EDI
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - EDI
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - EDI
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - EDI
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - EDI
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - EDI
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - DEN
+--------------------------------
+Running Scenario 1, Round 7, Player Power: FRANCE ...
+Running Scenario 1, Round 7, Player Power: GERMANY ...
+Running Scenario 1, Round 7, Player Power: ITALY ...
+Running Scenario 1, Round 7, Player Power: RUSSIA ...
+Running Scenario 1, Round 7, Player Power: TURKEY ...
+Running Scenario 1, Round 8, Player Power: AUSTRIA ...
+Running Scenario 1, Round 8, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+Running Scenario 1, Round 8, Player Power: FRANCE ...
+Running Scenario 1, Round 8, Player Power: GERMANY ...
+Running Scenario 1, Round 8, Player Power: ITALY ...
+Running Scenario 1, Round 8, Player Power: RUSSIA ...
+Running Scenario 1, Round 8, Player Power: TURKEY ...
+Running Scenario 1, Round 9, Player Power: AUSTRIA ...
+Running Scenario 1, Round 9, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+Running Scenario 1, Round 9, Player Power: FRANCE ...
+Running Scenario 1, Round 9, Player Power: GERMANY ...
+Running Scenario 1, Round 9, Player Power: ITALY ...
+Running Scenario 1, Round 9, Player Power: RUSSIA ...
+Running Scenario 1, Round 9, Player Power: TURKEY ...
+Running Scenario 1, Round 10, Player Power: AUSTRIA ...
+Running Scenario 1, Round 10, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+--------------------------------
+Running Scenario 1, Round 10, Player Power: FRANCE ...
+Running Scenario 1, Round 10, Player Power: GERMANY ...
+Running Scenario 1, Round 10, Player Power: ITALY ...
+Running Scenario 1, Round 10, Player Power: RUSSIA ...
+Running Scenario 1, Round 10, Player Power: TURKEY ...
 ----- The Per-Power and the Overall Performance of the Player Agent -----
 AUSTRIA: SCs - 18.0±0.0, Wins - 100.0%, Survives - 0.0%, Defeats - 0.0%
-ENGLAND: SCs - 8.0±0.0, Wins - 0.0%, Survives - 100.0%, Defeats - 0.0%
+ENGLAND: SCs - 18.0±0.0, Wins - 100.0%, Survives - 0.0%, Defeats - 0.0%
 FRANCE: SCs - 18.0±0.0, Wins - 100.0%, Survives - 0.0%, Defeats - 0.0%
 GERMANY: SCs - 18.0±0.0, Wins - 100.0%, Survives - 0.0%, Defeats - 0.0%
 ITALY: SCs - 18.0±0.0, Wins - 100.0%, Survives - 0.0%, Defeats - 0.0%
 RUSSIA: SCs - 18.0±0.0, Wins - 100.0%, Survives - 0.0%, Defeats - 0.0%
 TURKEY: SCs - 18.0±0.0, Wins - 100.0%, Survives - 0.0%, Defeats - 0.0%
-ALL: SCs - 16.57±3.5, Wins - 85.71%, Survives - 14.29%, Defeats - 0.0%
+ALL: SCs - 18.0±0.0, Wins - 100.0%, Survives - 0.0%, Defeats - 0.0%
+-------------------------------------------------------------------------
+Evaluating Scenario 2 ...
+Running Scenario 2, Round 1, Player Power: AUSTRIA ...
+Running Scenario 2, Round 1, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+Running Scenario 2, Round 1, Player Power: FRANCE ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MAR D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MAR D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MAR D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MAR D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MAR D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MAR D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MAR D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BRE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BRE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BRE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BRE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BRE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BRE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BRE D
+--------------------------------
+Running Scenario 2, Round 1, Player Power: GERMANY ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F KIE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F KIE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F KIE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F KIE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F KIE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F KIE D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F KIE D
+--------------------------------
+Running Scenario 2, Round 1, Player Power: ITALY ...
+Running Scenario 2, Round 1, Player Power: RUSSIA ...
+Running Scenario 2, Round 1, Player Power: TURKEY ...
+Running Scenario 2, Round 2, Player Power: AUSTRIA ...
+Running Scenario 2, Round 2, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+Running Scenario 2, Round 2, Player Power: FRANCE ...
+Running Scenario 2, Round 2, Player Power: GERMANY ...
+Running Scenario 2, Round 2, Player Power: ITALY ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A VEN D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A VEN D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A VEN D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A VEN D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A VEN D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A VEN D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A VEN D
+--------------------------------
+Running Scenario 2, Round 2, Player Power: RUSSIA ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+Running Scenario 2, Round 2, Player Power: TURKEY ...
+Running Scenario 2, Round 3, Player Power: AUSTRIA ...
+Running Scenario 2, Round 3, Player Power: ENGLAND ...
+Running Scenario 2, Round 3, Player Power: FRANCE ...
+Running Scenario 2, Round 3, Player Power: GERMANY ...
+Running Scenario 2, Round 3, Player Power: ITALY ...
+Running Scenario 2, Round 3, Player Power: RUSSIA ...
+Running Scenario 2, Round 3, Player Power: TURKEY ...
+Running Scenario 2, Round 4, Player Power: AUSTRIA ...
+Running Scenario 2, Round 4, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A BEL - PIC
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A BEL - PIC
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A BEL - PIC
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A BEL - PIC
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A BEL - PIC
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A BEL - PIC
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F NTH C A BEL - PIC
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+Running Scenario 2, Round 4, Player Power: FRANCE ...
+Running Scenario 2, Round 4, Player Power: GERMANY ...
+Running Scenario 2, Round 4, Player Power: ITALY ...
+Running Scenario 2, Round 4, Player Power: RUSSIA ...
+Running Scenario 2, Round 4, Player Power: TURKEY ...
+Running Scenario 2, Round 5, Player Power: AUSTRIA ...
+Running Scenario 2, Round 5, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - EDI
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - EDI
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - EDI
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - EDI
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - EDI
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - EDI
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A HOL - EDI
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F HEL C A DEN - BEL
+--------------------------------
+Running Scenario 2, Round 5, Player Power: FRANCE ...
+Running Scenario 2, Round 5, Player Power: GERMANY ...
+Running Scenario 2, Round 5, Player Power: ITALY ...
+Running Scenario 2, Round 5, Player Power: RUSSIA ...
+Running Scenario 2, Round 5, Player Power: TURKEY ...
+Running Scenario 2, Round 6, Player Power: AUSTRIA ...
+Running Scenario 2, Round 6, Player Power: ENGLAND ...
+Running Scenario 2, Round 6, Player Power: FRANCE ...
+Running Scenario 2, Round 6, Player Power: GERMANY ...
+Running Scenario 2, Round 6, Player Power: ITALY ...
+Running Scenario 2, Round 6, Player Power: RUSSIA ...
+Running Scenario 2, Round 6, Player Power: TURKEY ...
+Running Scenario 2, Round 7, Player Power: AUSTRIA ...
+Running Scenario 2, Round 7, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - HOL
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A LON B
+-- ORDER NOT ALLOWED: A LVP B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - YOR
+--------------------------------
+Running Scenario 2, Round 7, Player Power: FRANCE ...
+Running Scenario 2, Round 7, Player Power: GERMANY ...
+Running Scenario 2, Round 7, Player Power: ITALY ...
+Running Scenario 2, Round 7, Player Power: RUSSIA ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MOS D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MOS D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MOS D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MOS D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MOS D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MOS D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A MOS D
+--------------------------------
+Running Scenario 2, Round 7, Player Power: TURKEY ...
+Running Scenario 2, Round 8, Player Power: AUSTRIA ...
+Running Scenario 2, Round 8, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A EDI B
+-- ORDER NOT ALLOWED: A LON B
+--------------------------------
+Running Scenario 2, Round 8, Player Power: FRANCE ...
+Running Scenario 2, Round 8, Player Power: GERMANY ...
+Running Scenario 2, Round 8, Player Power: ITALY ...
+Running Scenario 2, Round 8, Player Power: RUSSIA ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F SEV D
+--------------------------------
+Running Scenario 2, Round 8, Player Power: TURKEY ...
+Running Scenario 2, Round 9, Player Power: AUSTRIA ...
+Running Scenario 2, Round 9, Player Power: ENGLAND ...
+Running Scenario 2, Round 9, Player Power: FRANCE ...
+Running Scenario 2, Round 9, Player Power: GERMANY ...
+Running Scenario 2, Round 9, Player Power: ITALY ...
+Running Scenario 2, Round 9, Player Power: RUSSIA ...
+Running Scenario 2, Round 9, Player Power: TURKEY ...
+Running Scenario 2, Round 10, Player Power: AUSTRIA ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BUD D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BUD D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BUD D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BUD D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BUD D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BUD D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: A BUD D
+--------------------------------
+Running Scenario 2, Round 10, Player Power: ENGLAND ...
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F IRI C A WAL - LON
+--------------------------------
+Running Scenario 2, Round 10, Player Power: FRANCE ...
+Running Scenario 2, Round 10, Player Power: GERMANY ...
+Running Scenario 2, Round 10, Player Power: ITALY ...
+Running Scenario 2, Round 10, Player Power: RUSSIA ...
+Running Scenario 2, Round 10, Player Power: TURKEY ...
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F CON D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F CON D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F CON D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F CON D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F CON D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F CON D
+--------------------------------
+The following errors were encountered and were cleared before processing.
+-- ORDER NOT ALLOWED: F CON D
+--------------------------------
+----- The Per-Power and the Overall Performance of the Player Agent -----
+AUSTRIA: SCs - 8.2±7.22, Wins - 30.0%, Survives - 60.0%, Defeats - 10.0%
+ENGLAND: SCs - 11.9±4.21, Wins - 0.0%, Survives - 100.0%, Defeats - 0.0%
+FRANCE: SCs - 17.0±2.0, Wins - 80.0%, Survives - 20.0%, Defeats - 0.0%
+GERMANY: SCs - 11.8±5.84, Wins - 40.0%, Survives - 60.0%, Defeats - 0.0%
+ITALY: SCs - 13.4±5.99, Wins - 60.0%, Survives - 40.0%, Defeats - 0.0%
+RUSSIA: SCs - 9.0±5.23, Wins - 20.0%, Survives - 80.0%, Defeats - 0.0%
+TURKEY: SCs - 17.2±1.4, Wins - 70.0%, Survives - 30.0%, Defeats - 0.0%
+ALL: SCs - 12.64±5.95, Wins - 42.86%, Survives - 55.71%, Defeats - 1.43%
 -------------------------------------------------------------------------

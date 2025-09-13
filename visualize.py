@@ -14,8 +14,8 @@ if __name__ == "__main__":
 		os.remove(save_path)
 
 	agents_dict = {
-		'AUSTRIA': AggressiveAgent(), 
-		'ENGLAND': StaticAgent(), 
+		'AUSTRIA': StaticAgent(), 
+		'ENGLAND': AggressiveAgent(), 
 		'FRANCE': StaticAgent(), 
 		'GERMANY': StaticAgent(), 
 		'ITALY': StaticAgent(), 
