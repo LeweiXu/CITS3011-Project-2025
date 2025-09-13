@@ -1,0 +1,28 @@
+['A BUD - RUM', 'F TRI - ADR', 'A VIE - BOH'] S1901M
+['A RUM H', 'A BOH - GAL'] F1901M
+['A BUD - SER', 'A RUM - BUL', 'A GAL - SIL'] S1902M
+['A SER H', 'A BUL H', 'A SIL - GAL'] F1902M
+['A BUL - GRE', 'A TRI - VEN VIA', 'A BUD - RUM', 'A SER - ALB', 'A GAL - SIL'] S1903M
+['A GRE H', 'A ALB - VEN VIA', 'A RUM - GAL', 'A TRI - BUD', 'A SIL - PRU'] F1903M
+['A ALB - VEN VIA', 'A PRU - WAR', 'A GAL S A PRU - WAR', 'A BUD - RUM', 'A TRI - VIE', 'A GRE - BUL'] S1904M
+['A WAR H', 'A ALB - VEN VIA', 'A VIE - TRI', 'A BUL - SER', 'A GAL - BOH', 'A RUM - BUD'] F1904M
+['A ALB - VEN VIA', 'A BOH - TYR', 'A BUD - VIE', 'A SER - BUL', 'A WAR - GAL', 'A TRI - ALB'] S1905M
+['A TYR - VEN', 'F ADR S A TYR - VEN', 'A TRI S A TYR - VEN', 'A ALB - SER', 'A VIE - BOH', 'A BUL - GRE', 'A GAL - BUD'] F1905M
+['A BOH - GAL', 'A BUD - RUM', 'A GRE - BUL', 'A SER - ALB', 'A TRI - VIE', 'A VEN - TYR'] S1906M
+['A ALB - SER', 'A BUL - GRE', 'A GAL - WAR', 'A RUM - UKR', 'A TYR - BOH', 'A VIE - BUD'] F1906M
+['A WAR - MOS', 'A UKR S A WAR - MOS', 'A TRI - ALB', 'A BOH - TYR', 'A BUD - RUM', 'A SER - BUL', 'A GRE - SER'] S1907M
+['A MOS H', 'A UKR - SEV', 'A RUM S A UKR - SEV', 'A ALB - TRI', 'A BUL - GRE', 'A SER - BUD', 'A TYR - BOH'] F1907M
+['A MOS - STP', 'A BOH - GAL', 'A BUD - VIE', 'A GRE - BUL', 'A RUM - UKR', 'A SEV - ARM', 'A TRI - SER'] S1908M
+['A MOS - STP', 'A ARM - SEV', 'A BUL - RUM', 'A GAL - WAR', 'A SER - BUD', 'A UKR - MOS', 'A VIE - BOH'] F1908M
+['A MOS - STP', 'A BOH - SIL', 'A WAR - PRU', 'A BUD - GAL', 'A RUM - BUL', 'A TRI - TYR', 'A UKR - WAR', 'A SEV - ARM'] S1909M
+['A MOS - STP', 'A PRU - BER', 'A SIL S A PRU - BER', 'A ARM - SEV', 'A BUL - RUM', 'A GAL - UKR', 'A TYR - BOH', 'A WAR - LVN'] F1909M
+['A MOS - STP', 'A BER - MUN', 'A BOH S A BER - MUN', 'A SIL S A BER - MUN', 'A BUD - GAL', 'A RUM - BUL', 'A SEV - ARM', 'A TRI - VIE', 'A UKR - WAR', 'A LVN - PRU'] S1910M
+['A MUN H', 'A MOS - STP', 'A ARM - SEV', 'A BOH - TYR', 'A BUL - RUM', 'A GAL - UKR', 'A PRU - LVN', 'A SIL - BER', 'A VIE - BUD', 'A WAR - MOS'] F1910M
+['A MOS - STP', 'A BER - KIE', 'A MUN S A BER - KIE', 'A SEV - ARM', 'A UKR - GAL', 'A WAR - PRU', 'A RUM - BUL', 'A BUD - SER', 'A TRI - VIE', 'A TYR - BOH', 'A LVN - MOS'] S1911M
+['A KIE H', 'A MOS - STP', 'A ARM - SEV', 'A BOH - SIL', 'A BUL - RUM', 'A GAL - WAR', 'A MUN - BER', 'A PRU - LVN', 'A SER - BUD', 'A VIE - TRI', 'A LVN - MOS'] F1911M
+['A MOS - STP', 'A KIE - DEN', 'A BER - MUN', 'A BUD - GAL', 'A PRU - LVN', 'A RUM - UKR', 'A SEV - ARM', 'A SIL - BOH', 'A TRI - VIE', 'A WAR - MOS', 'A LVN - PRU'] S1912M
+['A DEN H', 'A MOS - STP', 'A ARM - SEV', 'A BOH - SIL', 'A GAL - BUD', 'A MUN - BER', 'A PRU - LVN', 'A UKR - RUM', 'A VIE - TRI', 'A WAR - MOS', 'A LVN - PRU'] F1912M
+['A MOS - STP', 'A DEN - SWE', 'A SEV - ARM', 'A RUM - BUL', 'A BUD - GAL', 'A LVN - MOS', 'A TRI - SER', 'A WAR - UKR', 'A PRU - LVN', 'A SIL - BOH', 'A BER - MUN'] S1913M
+['A SWE H', 'A MOS - STP', 'A ARM - SEV', 'A BOH - SIL', 'A BUL - RUM', 'A GAL - WAR', 'A MUN - BER', 'A PRU - LVN', 'A SER - BUD', 'A UKR - MOS', 'A LVN - PRU'] F1913M
+['A MOS - STP', 'A SWE - NWY', 'A BER - KIE', 'A BUD - GAL', 'A PRU - LVN', 'A RUM - BUL', 'A SEV - ARM', 'A SIL - BOH', 'A TRI - VIE', 'A UKR - MOS', 'A WAR - PRU', 'A LVN - WAR'] S1914M
+['A NWY H', 'A MOS - STP', 'A KIE - HOL', 'A ARM - SEV', 'A BOH - SIL', 'A BUL - RUM', 'A GAL - BUD', 'A PRU - BER', 'A UKR - MOS', 'A VIE - TRI', 'A WAR - LVN', 'A LVN - PRU'] F1914M

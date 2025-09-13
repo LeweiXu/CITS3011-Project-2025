@@ -3,9 +3,11 @@ from agent_baselines import Agent
 import networkx as nx
 from collections import deque
 
-class StudentAgent(Agent):
+RETRY_COUNT = 3
+
+class AggressiveAgent(Agent):
     @timeout_decorator.timeout(1)
-    def __init__(self, agent_name='Master Lingwei\'s Agent'):
+    def __init__(self, agent_name='Master Lingwei\'s aggressive agent that somehow works'):
         super().__init__(agent_name)
 
     @timeout_decorator.timeout(1)
@@ -13,6 +15,9 @@ class StudentAgent(Agent):
         self.game = game
         self.power_name = power_name
         self.state_graph = self.build_state_graph()
+        self.target_count = RETRY_COUNT
+        self.target = None
+        self.no_luck = set()
         self.update_state_graph()
 
     @timeout_decorator.timeout(1)
@@ -36,7 +41,7 @@ class StudentAgent(Agent):
                 node_type = 'WATER'
             elif prov_type == 'COAST':
                 node_type = 'COAST'
-            state_graph.add_node(prov.upper(), type=node_type, units={})
+            state_graph.add_node(prov.upper(), type=node_type, units=(None, None))
 
         # Add edges for army/fleet adjacency
         locations = list(state_graph.nodes)
@@ -56,7 +61,7 @@ class StudentAgent(Agent):
     def update_state_graph(self):
         # Reset units and owner information for all nodes
         for node in self.state_graph.nodes:
-            self.state_graph.nodes[node]['units'] = {}
+            self.state_graph.nodes[node]['units'] = (None, None)
             self.state_graph.nodes[node]['owner'] = None
             self.state_graph.nodes[node]['is_supply'] = False
         
@@ -68,73 +73,163 @@ class StudentAgent(Agent):
         for power_name, power in self.game.powers.items():
             for unit in power.units:
                 unit_type, prov = unit.split()
-                self.state_graph.nodes[prov.upper()]['units'][power_name] = unit_type
+                self.state_graph.nodes[prov.upper()]['units'] = (power_name, unit_type)
 
         # Add owner information for supply centers
         for owner, provs in self.game.get_centers().items():
             for prov in provs:
                 self.state_graph.nodes[prov.upper()]['owner'] = owner
 
-@timeout_decorator.timeout(1)
-def get_convoy_options(self):
-    """
-    Returns a dict mapping 'A {ORIGIN}' -> [DEST,...] where each DEST is a coastal province
-    the army can reach via a chain of adjacent fleets in WATER provinces.
-    """
-    G = self.state_graph
-    fleet_nodes = [n for n in G.nodes if G.nodes[n]['type'] == 'WATER' and any(u == 'F' for u in G.nodes[n]['units'].values())]
-    visited = set()
-    fleet_chains = []
+    @timeout_decorator.timeout(1)
+    def get_convoy_options(self):
+        """
+        For each army of self.power_name on a COAST node, finds all paths via fleets on WATER nodes to other COAST nodes.
+        Returns a dict mapping '{ORIGIN}' -> {DEST: [fleet1, fleet2, ...], ...}
+        """
+        # TODO: account for EC/SC coasts
+        G = self.state_graph
+        convoy_options = {}
+        coast_nodes = [n for n in G.nodes if G.nodes[n]['type'] == 'COAST' and G.nodes[n]['units'] == (self.power_name, 'A')]
 
-    # Find all chains of adjacent fleets in WATER provinces
-    for node in fleet_nodes:
-        if node in visited:
-            continue
-        chain = set()
-        q = deque([node])
-        while q:
-            cur = q.popleft()
-            if cur in visited:
-                continue
-            visited.add(cur)
-            chain.add(cur)
-            for nbr in G.neighbors(cur):
-                if G.nodes[nbr]['type'] == 'WATER' and any(u == 'F' for u in G.nodes[nbr]['units'].values()):
-                    if G.get_edge_data(cur, nbr).get('fleet'):
-                        q.append(nbr)
-        if chain:
-            fleet_chains.append(chain)
+        for origin in coast_nodes:
+            destinations = {}
+            # Start DFS from all adjacent WATER nodes with a fleet
+            for nbr in G.neighbors(origin):
+                nbr_data = G.nodes[nbr]
+                if nbr_data['type'] == 'WATER' and nbr_data['units'] == (self.power_name, 'F') and G.get_edge_data(origin, nbr).get('fleet'):
+                    stack = [(nbr, [nbr], set([origin, nbr]))]
+                    while stack:
+                        cur, path, visited = stack.pop()
+                        # Explore neighbors of current WATER node
+                        for next_nbr in G.neighbors(cur):
+                            next_data = G.nodes[next_nbr]
+                            if next_nbr == origin:
+                                continue
+                            # If adjacent COAST node (not origin), record as destination
+                            if next_data['type'] == 'COAST' and G.get_edge_data(cur, next_nbr).get('fleet'):
+                                if next_nbr not in destinations:
+                                    destinations[next_nbr] = path.copy()
+                            # Continue DFS through WATER nodes with fleets
+                            elif next_data['type'] == 'WATER' and next_nbr not in visited and next_data['units'] == (self.power_name, 'F') and G.get_edge_data(cur, next_nbr).get('fleet'):
+                                stack.append((next_nbr, path + [next_nbr], visited | set([next_nbr])))
+            convoy_options[origin] = destinations
+        return convoy_options
 
-    convoy_options = {}
+    @timeout_decorator.timeout(1)
+    def find_closest_unoccupied(self, origin, target, target_locs):
+        """
+        Returns the closest location to 'target' that is unoccupied, not in target_locs, and adjacent to 'origin'.
+        If none found, returns the closest adjacent province (not in target_locs) on the shortest path to target, even if occupied.
+        """
+        G = self.state_graph
+        candidates = []
+        origin_node_data = G.nodes[origin]
+        origin_unit_type = origin_node_data['units'][1]
+        for nbr in G.neighbors(origin):
+            if nbr in target_locs: continue
+            node_data = G.nodes[nbr]
+            if node_data['units'][0] is not None: continue
+            if not self.game.map.abuts(origin_unit_type, origin, '-', nbr): continue
+            # BFS from nbr to target to get distance
+            visited = {nbr}
+            q = deque([(nbr, 0)])
+            dist = None
+            while q:
+                cur, d = q.popleft()
+                if cur == target:
+                    dist = d
+                    break
+                for nn in G.neighbors(cur):
+                    if nn not in visited:
+                        visited.add(nn)
+                        q.append((nn, d + 1))
+            if dist is not None:
+                candidates.append((dist, nbr))
+        if candidates:
+            candidates.sort()
+            return candidates[0][1]
+        # If no unoccupied adjacent province, pick the closest adjacent province on shortest path to target (even if occupied)
+        alt_candidates = []
+        for nbr in G.neighbors(origin):
+            if nbr in target_locs: continue
+            if not self.game.map.abuts(origin_unit_type, origin, '-', nbr): continue
+            # BFS from nbr to target to get distance
+            visited = {nbr}
+            q = deque([(nbr, 0)])
+            dist = None
+            while q:
+                cur, d = q.popleft()
+                if cur == target:
+                    dist = d
+                    break
+                for nn in G.neighbors(cur):
+                    if nn not in visited:
+                        visited.add(nn)
+                        q.append((nn, d + 1))
+            if dist is not None:
+                alt_candidates.append((dist, nbr))
+        if alt_candidates:
+            alt_candidates.sort()
+            return alt_candidates[0][1]
+        return None
 
-    # For each fleet chain, find adjacent armies on COAST provinces and possible convoy destinations
-    for chain in fleet_chains:
-        # Find armies on COAST provinces adjacent to the chain
-        armies = []
-        for fleet in chain:
-            for nbr in G.neighbors(fleet):
-                if G.nodes[nbr]['type'] == 'COAST' and any(u == 'A' for u in G.nodes[nbr]['units'].values()):
-                    armies.append(nbr)
-        # For each army, find all coastal provinces adjacent to the chain (excluding origin)
-        for army_loc in armies:
-            destinations = set()
-            for fleet in chain:
-                for nbr in G.neighbors(fleet):
-                    if G.nodes[nbr]['type'] == 'COAST' and nbr != army_loc and G.get_edge_data(fleet, nbr).get('fleet'):
-                        destinations.add(nbr)
-            if destinations:
-                # Find the power name for the army
-                for power, unit_type in G.nodes[army_loc]['units'].items():
-                    if unit_type == 'A':
-                        key = f"A {army_loc}"
-                        if key not in convoy_options:
-                            convoy_options[key] = []
-                        convoy_options[key].extend(sorted(destinations))
-    # Remove duplicates in destination lists
-    for k in convoy_options:
-        convoy_options[k] = sorted(list(set(convoy_options[k])))
-
-    return convoy_options
+    @timeout_decorator.timeout(1)
+    def get_target(self, remaining_units, unit_types):
+        enemy_supply_centers = [
+            n for n in self.state_graph.nodes
+            if self.state_graph.nodes[n]['is_supply'] and self.state_graph.nodes[n]['owner'] not in (None, self.power_name)
+        ]
+        target = None
+        min_dist = float('inf')
+        for loc in remaining_units:
+            loc_u = loc.upper()
+            unit_type = unit_types[loc]
+            visited = {loc_u}
+            prev = {loc_u: None}
+            q = deque([(loc_u, 0)])
+            while q:
+                cur, dist = q.popleft()
+                if cur in enemy_supply_centers and dist < min_dist and cur not in self.no_luck:
+                    target = cur
+                    min_dist = dist
+                for nbr in self.state_graph.neighbors(cur):
+                    if nbr in visited:
+                        continue
+                    edge = self.state_graph.get_edge_data(cur, nbr) or {}
+                    can_traverse = (unit_type == 'A' and edge.get('army')) or (unit_type == 'F' and edge.get('fleet'))
+                    if not can_traverse:
+                        continue
+                    visited.add(nbr)
+                    prev[nbr] = cur
+                    q.append((nbr, dist + 1))
+        return target
+            
+    def get_unit_dists(self, remaining_units, target, unit_types):
+        unit_distances = []
+        for loc in remaining_units:
+            loc_u = loc.upper()
+            unit_type = unit_types[loc]
+            # Compute distance from loc to target
+            visited = {loc_u}
+            q = deque([(loc_u, 0)])
+            dist_to_target = None
+            while q:
+                cur, dist = q.popleft()
+                if cur == target:
+                    dist_to_target = dist
+                    break
+                for nbr in self.state_graph.neighbors(cur):
+                    if nbr in visited:
+                        continue
+                    edge = self.state_graph.get_edge_data(cur, nbr) or {}
+                    can_traverse = (unit_type == 'A' and edge.get('army')) or (unit_type == 'F' and edge.get('fleet'))
+                    if not can_traverse:
+                        continue
+                    visited.add(nbr)
+                    q.append((nbr, dist + 1))
+            unit_distances.append((dist_to_target if dist_to_target is not None else float('inf'), loc))
+        
+        return unit_distances
 
     @timeout_decorator.timeout(1)
     def get_actions(self):
@@ -146,7 +241,6 @@ def get_convoy_options(self):
         accounted_locs = set()
         target_moves = set()
         convoy_map = self.get_convoy_options()
-        print(convoy_map)
 
         # Case 0: If in build phase, build in any unoccupied supply center if possible
         if self.game.get_current_phase().endswith('A'):
@@ -164,35 +258,49 @@ def get_convoy_options(self):
         if self.game.get_current_phase().endswith('R'):
             return []
                         
-        # Case 1: For every unit that is currently in an unoccupied supply center, hold
+        # Case 1: For every unit that is currently in a supply center not owned by us, hold
         for loc in unit_locs:
-            if self.state_graph.nodes[loc.upper()]['owner'] is None and self.state_graph.nodes[loc.upper()]['is_supply']:
+            node_data = self.state_graph.nodes[loc.upper()]
+            if node_data['owner'] != self.power_name and node_data['is_supply']:
                 orders.append(f"{unit_types[loc]} {loc} H")
                 accounted_locs.add(loc)
 
         # Case 2: For remaining units, check neighboring nodes for unoccupied supply centers and move there if possible.
         for loc in unit_locs - accounted_locs:
             neighbors = [neighbor for neighbor in self.state_graph.neighbors(loc.upper())]
-            neighbors.extend([neighbor for neighbor in convoy_map[loc]])
             for neighbor in neighbors:
                 edge_data = self.state_graph.get_edge_data(loc.upper(), neighbor)
                 node_data = self.state_graph.nodes[neighbor]
+                neighbor_power, neighbor_unit_type = node_data['units']
                 if unit_types[loc] == 'A' and edge_data.get('army') != True: continue
                 elif unit_types[loc] == 'F' and edge_data.get('fleet') != True: continue
 
-                if node_data.get('is_supply') == True and node_data.get('units') == {} and node_data.get('owner') != self.power_name:
+                if node_data.get('is_supply') == True and neighbor_power is None and node_data.get('owner') != self.power_name:
                     if neighbor in target_moves: continue
                     orders.append(f"{unit_types[loc]} {loc} - {neighbor}")
                     target_moves.add(neighbor)
                     accounted_locs.add(loc)
                     break
 
-        # Case 3: For remaining units, if 2 units border a location occupied by an enemy unit, move one unit to attack it and support with the other.
+        # Case 2.5: Check convoy options after checking adjacent army nodes
+        for loc in unit_locs - accounted_locs:
+            if loc in convoy_map:
+                neighbors = convoy_map[loc].keys()
+                for neighbor in neighbors:
+                    node_data = self.state_graph.nodes[neighbor]
+                    if node_data.get('is_supply') == True and neighbor_power is None and node_data.get('owner') != self.power_name:
+                        if neighbor in target_moves: continue
+                        orders.append(f"A {loc} - {neighbor} VIA")
+                        target_moves.add(neighbor)
+                        accounted_locs.add(tuple(convoy_map[loc][neighbor]))  # Add all fleets involved in convoy to accounted_locs
+                        accounted_locs.add(loc)
+                        break
+
+        # Case 3: For remaining units, if 2+ units border a location occupied by an enemy unit, move one unit to attack it and support with all other units
         enemy_occupied_locations = [
             n for n in self.state_graph.nodes
-            if self.state_graph.nodes[n].get('units') and any(p != my_power for p in self.state_graph.nodes[n]['units'].keys())
+            if self.state_graph.nodes[n]['units'][0] is not None and self.state_graph.nodes[n]['units'][0] != my_power
         ]
-        # For each enemy-occupied node, find friendly units adjacent to it (and ensure edge type matches unit)
         for target in enemy_occupied_locations:
             adjacent_friendly = []
             for loc in unit_locs - accounted_locs:
@@ -200,27 +308,39 @@ def get_convoy_options(self):
                     continue
                 edge = self.state_graph.get_edge_data(loc.upper(), target)
                 unit_type = unit_types[loc]
-                # ensure unit can traverse/support across this edge
                 if unit_type == 'A' and not edge.get('army'): continue
                 if unit_type == 'F' and not edge.get('fleet'): continue
                 adjacent_friendly.append(loc)
 
             if len(adjacent_friendly) >= 2:
-                # Move one unit to attack, others support
-                attacker = adjacent_friendly[0]
-                attacker_type = unit_types[attacker]
+                target_type = self.state_graph.nodes[target]['type']
+                attacker = None
+                if target_type in ('COAST', 'LAND'):
+                    for loc in adjacent_friendly:
+                        if unit_types[loc] == 'A':
+                            attacker = loc
+                            break
+                if attacker is None:
+                    for loc in adjacent_friendly:
+                        if unit_types[loc] == 'F':
+                            attacker = loc
+                            break
+                if attacker is None:
+                    attacker = adjacent_friendly[0]  # fallback to first
 
+                attacker_type = unit_types[attacker]
                 if target in target_moves: continue
-                
                 orders.append(f"{attacker_type} {attacker} - {target}")
                 target_moves.add(target)
                 accounted_locs.add(attacker)
-                for supporter in adjacent_friendly[1:]:
+                for supporter in adjacent_friendly:
+                    if supporter == attacker:
+                        continue
                     supporter_type = unit_types[supporter]
                     orders.append(f"{supporter_type} {supporter} S {attacker_type} {attacker} - {target}")
                     accounted_locs.add(supporter)
 
-        # Case 3.5: Any fleets should try move to adjacent sea provinces if possible to vacate space for army units
+        # Case 3.5: Any fleets should try move to adjacent sea provinces if possible to vacate space for army units and allow for convoys
         for loc in unit_locs - accounted_locs:
             if unit_types[loc] == 'F':
                 if self.state_graph.nodes[loc.upper()]['type'] == 'WATER':
@@ -228,7 +348,8 @@ def get_convoy_options(self):
                 for neighbor in self.state_graph.neighbors(loc.upper()):
                     edge_data = self.state_graph.get_edge_data(loc.upper(), neighbor)
                     node_data = self.state_graph.nodes[neighbor]
-                    if edge_data.get('fleet') == True and node_data.get('type') == 'WATER' and node_data.get('units') == {}:
+                    neighbor_power, neighbor_unit_type = node_data['units']
+                    if edge_data.get('fleet') == True and node_data.get('type') == 'WATER' and neighbor_power is None:
                         if neighbor in target_moves:
                             continue
                         orders.append(f"F {loc} - {neighbor}")
@@ -236,91 +357,46 @@ def get_convoy_options(self):
                         accounted_locs.add(loc)
                         break
 
-        # Case 4: For remaining units, attempt to move towards the nearest supply center not owned by us.
-        for loc in unit_locs - accounted_locs:
+        # Case 4: For remaining units, move as many units as possible to be adjacent to the closest enemy supply center.
+        remaining_units = list(unit_locs - accounted_locs)
+        # Pick the closest enemy supply center as target
+        if self.target_count == RETRY_COUNT:
+            target = self.get_target(remaining_units, unit_types)
+            self.target_count = 0
+            self.no_luck.add(target)
+        else:
+            self.target_count += 1
+
+        unit_distances = self.get_unit_dists(remaining_units, target, unit_types)
+
+        # Sort units by distance to target (closest first)
+        unit_distances.sort()
+        # Move non-adjacent units first
+        for dist, loc in unit_distances:
             loc_u = loc.upper()
             unit_type = unit_types[loc]
-
-            # BFS from loc to find the first supply center owned by an enemy
-            q = deque([loc_u])
-            prev = {loc_u: None}
-            visited = {loc_u}
-            found_path = None
-
-            while q:
-                cur = q.popleft()
-
-                # skip the start node when checking target property
-                if cur != loc_u:
-                    node_data = self.state_graph.nodes[cur]
-                    if node_data.get('is_supply') and node_data.get('owner') not in (None, self.power_name):
-                        # reconstruct path from loc_u to cur
-                        path = []
-                        n = cur
-                        while n is not None:
-                            path.append(n)
-                            n = prev.get(n)
-                        path.reverse()
-                        found_path = path
-                        break
-
-                for nbr in self.state_graph.neighbors(cur):
-                    if nbr in visited:
-                        continue
-                    edge = self.state_graph.get_edge_data(cur, nbr) or {}
-                    # only traverse edges the unit type can use
-                    can_traverse = (unit_type == 'A' and edge.get('army')) or (unit_type == 'F' and edge.get('fleet'))
-                    if not can_traverse:
-                        continue
-                    visited.add(nbr)
-                    prev[nbr] = cur
-                    q.append(nbr)
-
-            # If no target found or no movement step, hold
-            if not found_path or len(found_path) < 2:
-                orders.append(f"{unit_type} {loc} H")
-                accounted_locs.add(loc)
-                continue
-
-            next_step = found_path[1]
-            # if next_step is an enemy-occupied supply center and is adjacent, prefer an alternative unoccupied neighbour
-            node_data_next = self.state_graph.nodes[next_step]
-            occupying_units = node_data_next.get('units', {})
-            enemy_occupying = (occupying_units != {} and any(p != self.power_name for p in occupying_units.keys()))
-            if node_data_next.get('is_supply') and enemy_occupying:
-                # try to find another adjacent unoccupied province to move into
-                alt_found = None
-                for alt in self.state_graph.neighbors(loc_u):
-                    if alt == next_step:
-                        continue
-                    edge_alt = self.state_graph.get_edge_data(loc_u, alt) or {}
-                    can_move_alt = (unit_type == 'A' and edge_alt.get('army')) or (unit_type == 'F' and edge_alt.get('fleet'))
-                    if not can_move_alt:
-                        continue
-                    alt_node = self.state_graph.nodes[alt]
-                    if alt_node.get('units', {}) == {} and alt not in target_moves:
-                        alt_found = alt
-                        break
-                if alt_found:
-                    orders.append(f"{unit_type} {loc} - {alt_found}")
-                    target_moves.add(alt_found)
-                    accounted_locs.add(loc)
-                    continue
-                else:
-                    # no suitable alternative, hold
-                    orders.append(f"{unit_type} {loc} H")
-                    accounted_locs.add(loc)
-                    continue
-
-            # avoid collisions
-            if next_step in target_moves:
-                orders.append(f"{unit_type} {loc} H")
-                accounted_locs.add(loc)
-                continue
-
-            orders.append(f"{unit_type} {loc} - {next_step}")
-            target_moves.add(next_step)
+            if target in self.state_graph.neighbors(loc_u): continue 
+            next_loc = self.find_closest_unoccupied(loc_u, target, target_moves)
+            if not next_loc: continue
+            orders.append(f"{unit_types[loc]} {loc} - {next_loc}")
+            target_moves.add(next_loc)
             accounted_locs.add(loc)
 
-        print(orders, self.game.get_current_phase())
+        # Do adjacent units last
+        for dist, loc in unit_distances:
+            loc_u = loc.upper()
+            unit_type = unit_types[loc]
+            if target not in self.state_graph.neighbors(loc_u):
+                continue
+            next_loc = self.find_closest_unoccupied(loc_u, target, target_moves)
+            if not next_loc: continue
+            if next_loc is not None:
+                orders.append(f"{unit_types[loc]} {loc} - {next_loc}")
+                target_moves.add(next_loc)
+                accounted_locs.add(loc)
+            else:
+                orders.append(f"{unit_types[loc]} {loc} H")
+                accounted_locs.add(loc)
+
+        # print(orders, self.game.get_current_phase())
         return orders

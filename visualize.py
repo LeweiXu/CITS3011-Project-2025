@@ -3,7 +3,7 @@ import numpy as np
 import os
 from game import run_one_game
 from agent_baselines import StaticAgent, RandomAgent, GreedyAgent, AttitudeAgent
-from agent_23709058 import StudentAgent
+from agent_23709058 import AggressiveAgent
 
 # This file provides an example to simulate one game and export the game process for visualization.
 
@@ -14,7 +14,7 @@ if __name__ == "__main__":
 		os.remove(save_path)
 
 	agents_dict = {
-		'AUSTRIA': StudentAgent(), 
+		'AUSTRIA': AggressiveAgent(), 
 		'ENGLAND': StaticAgent(), 
 		'FRANCE': StaticAgent(), 
 		'GERMANY': StaticAgent(), 

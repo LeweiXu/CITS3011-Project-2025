@@ -4,7 +4,7 @@ from tqdm import tqdm
 from game import run_one_game
 from collections import defaultdict
 from agent_baselines import StaticAgent, RandomAgent, GreedyAgent, AttitudeAgent
-from agent_23709058 import StudentAgent
+from agent_23709058 import AggressiveAgent
 import os
 
 # This file provides examples for you to test the performance of your agents. The testing code may be different during the marking.
@@ -38,7 +38,6 @@ def experiment(player_agent, opponent_agent_pool, scenario, repeat_nums=10):
                     else:
                         opponent_agent = random.choice(opponent_agent_pool)
                         agents_dict[p] = opponent_agent()
-                print(f"TESTING WITH POWER {i} WITH {agents_dict}")
                 # save each game's JSON for visualization (unique filename per repeat and power)
                 save_name = f'outputs_{scenario}/game_r{r}_p{i}.json'
                 os.makedirs(os.path.dirname(save_name), exist_ok=True)
@@ -72,8 +71,8 @@ def experiment(player_agent, opponent_agent_pool, scenario, repeat_nums=10):
 
 if __name__ == "__main__":
 
-    # print('Evaluating Scenario 1 ...')
-    # experiment(player_agent=StudentAgent, opponent_agent_pool=[StaticAgent], scenario=1, repeat_nums=10)
+    print('Evaluating Scenario 1 ...')
+    experiment(player_agent=AggressiveAgent, opponent_agent_pool=[StaticAgent], scenario=1, repeat_nums=10)
 
-    print('Evaluating Scenario 2 ...')
-    experiment(player_agent=StudentAgent, opponent_agent_pool=[RandomAgent, AttitudeAgent, AttitudeAgent, GreedyAgent, GreedyAgent], scenario=2, repeat_nums=10)
+    # print('Evaluating Scenario 2 ...')
+    # experiment(player_agent=AggressiveAgent, opponent_agent_pool=[RandomAgent, AttitudeAgent, AttitudeAgent, GreedyAgent, GreedyAgent], scenario=2, repeat_nums=10)
