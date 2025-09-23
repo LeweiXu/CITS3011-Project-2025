@@ -1,84 +1,573 @@
+S1901M
+	Convoy options for EDI : {}
+	Accounted locs: set()
+	Convoy options for LVP : {}
+	Accounted locs: set()
+	Convoy options for LON : {}
+	Accounted locs: set()
+	Picking new target
+	Target: BRE, no_luck: {'BRE'}, target_count: 0
+	 ['F EDI - NTH', 'F LON - ENG', 'A LVP - WAL']
+F1901M
+	 F NTH - BEL
+	Convoy options for WAL : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH']}
+	Accounted locs: {'BEL'}
+	Convoy options for ENG : {}
+	Accounted locs: {'DEN', 'BEL'}
+	Target: BRE, no_luck: {'BRE'}, target_count: 1
+	 ['F NTH - BEL', 'A WAL - DEN VIA', 'F ENG C A WAL - DEN', 'F NTH C A WAL - DEN']
+W1901A
+	 ['A EDI B', 'A LON B', 'A LVP B']
+S1902M
+	 A DEN - SWE
+	Convoy options for NTH : {}
+	Accounted locs: {'SWE'}
+	Convoy options for EDI : {'BEL': ['NTH'], 'DEN': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG'], 'WAL': ['NTH', 'ENG']}
+	Accounted locs: {'SWE'}
+	Convoy options for ENG : {}
+	Accounted locs: {'BEL', 'SWE'}
+	Target: BRE, no_luck: {'BRE'}, target_count: 2
+	 ['A DEN - SWE', 'A EDI - BEL VIA', 'F NTH C A EDI - BEL']
+F1902M
+	Convoy options for NTH : {}
+	Accounted locs: set()
+	Convoy options for ENG : {}
+	Accounted locs: set()
+	Target: BRE, no_luck: {'BRE'}, target_count: 3
+	 ['A BEL H', 'A SWE H']
+W1902A
+	 ['A EDI B', 'A LON B', 'A LVP B']
+S1903M
+	 A SWE - NWY
+	 A BEL - HOL
+	Convoy options for NTH : {}
+	Accounted locs: {'NWY', 'HOL'}
+	Convoy options for EDI : {'BEL': ['NTH'], 'DEN': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG'], 'WAL': ['NTH', 'ENG']}
+	Accounted locs: {'NWY', 'HOL'}
+	Convoy options for ENG : {}
+	Accounted locs: {'NWY', 'HOL'}
+	Convoy options for LON : {'BEL': ['ENG'], 'BRE': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH']}
+	Accounted locs: {'NWY', 'HOL'}
+	Target: BRE, no_luck: {'BRE'}, target_count: 4
+	 ['A SWE - NWY', 'A BEL - HOL', 'A EDI - PIC VIA', 'F NTH C A EDI - PIC', 'F ENG C A EDI - PIC', 'A LON - WAL']
+F1903M
+	Convoy options for NTH : {}
+	Accounted locs: set()
+	Convoy options for WAL : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH']}
+	Accounted locs: set()
+	Convoy options for ENG : {}
+	Accounted locs: set()
+	Convoy options for PIC : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH']}
+	Accounted locs: set()
+	Picking new target
+	Target: PAR, no_luck: {'PAR', 'BRE'}, target_count: 0
+	 ['A HOL H', 'A NWY H', 'A PIC - BRE', 'F ENG S A PIC - BRE', 'A WAL - LON']
+F1903R
+	 []
+W1903A
+	 ['F EDI B', 'F LVP B']
+S1904M
+	 A NWY - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for LVP : {}
+	Accounted locs: {'STP'}
+	Convoy options for HOL : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG'], 'WAL': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for BRE : {'BEL': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH']}
+	Accounted locs: {'STP'}
+	Convoy options for EDI : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for LON : {'BEL': ['ENG'], 'BRE': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH']}
+	Accounted locs: {'STP'}
+	Target: PAR, no_luck: {'PAR', 'BRE'}, target_count: 1
+	 ['A NWY - STP', 'F LVP - IRI', 'F EDI - NWG', 'A HOL - PIC VIA', 'F NTH C A HOL - PIC', 'F ENG C A HOL - PIC', 'A LON - WAL', 'A BRE - GAS']
+F1904M
+	 A NWY - STP
+	 A GAS - SPA
+	Convoy options for NTH : {}
+	Accounted locs: {'SPA', 'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'SPA', 'STP'}
+	Convoy options for WAL : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['IRI']}
+	Accounted locs: {'SPA', 'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'SPA', 'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'SPA', 'STP'}
+	Convoy options for PIC : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'SPA', 'STP'}
+	Target: PAR, no_luck: {'PAR', 'BRE'}, target_count: 2
+	 ['A NWY - STP', 'A GAS - SPA', 'A WAL - BRE VIA', 'F ENG C A WAL - BRE', 'A PIC - BUR']
+W1904A
+	 ['A EDI B', 'A LON B', 'A LVP B']
+S1905M
+	 A SPA - POR
+	 A NWY - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP', 'POR'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP', 'POR'}
+	Convoy options for BUR : {}
+	Accounted locs: {'STP', 'POR'}
+	Convoy options for BRE : {'BEL': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP', 'POR'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP', 'POR'}
+	Convoy options for EDI : {'BEL': ['NTH'], 'DEN': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NWG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG'], 'WAL': ['NTH', 'ENG'], 'LVP': ['NTH', 'ENG', 'IRI']}
+	Accounted locs: {'STP', 'POR'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP', 'POR'}
+	Convoy options for LON : {'BEL': ['ENG'], 'BRE': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP', 'POR'}
+	Target: PAR, no_luck: {'PAR', 'BRE'}, target_count: 3
+	 ['A SPA - POR', 'A NWY - STP', 'A BUR - PAR', 'A BRE S A BUR - PAR', 'A EDI - PIC VIA', 'F NTH C A EDI - PIC', 'F ENG C A EDI - PIC', 'A LON - WAL']
+S1905R
+	 []
+F1905M
+	 A NWY - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for WAL : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for BRE : {'BEL': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for PIC : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Target: PAR, no_luck: {'PAR', 'BRE'}, target_count: 4
+	 ['A POR H', 'A PAR H', 'A NWY - STP', 'A WAL - BEL VIA', 'F ENG C A WAL - BEL', 'A BRE - GAS', 'A PIC - BUR']
+W1905A
+	 ['A EDI B', 'A LON B', 'A LVP B']
+S1906M
+	 A NWY - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for EDI : {'BEL': ['NTH'], 'DEN': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NWG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG'], 'WAL': ['NTH', 'ENG'], 'LVP': ['NTH', 'ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for BEL : {'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for POR : {}
+	Accounted locs: {'STP'}
+	Convoy options for LON : {'BEL': ['ENG'], 'BRE': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for PAR : {}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for BUR : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for GAS : {}
+	Accounted locs: {'STP'}
+	Picking new target
+	Target: KIE, no_luck: {'KIE', 'PAR', 'BRE'}, target_count: 0
+	 ['A NWY - STP', 'A BUR - MAR', 'A GAS S A BUR - MAR', 'A BEL - DEN VIA', 'F NTH C A BEL - DEN', 'A PAR - PIC', 'A POR - SPA', 'A EDI - YOR VIA', 'F NWG C A EDI - YOR', 'F NTH C A EDI - YOR', 'A LON - BRE VIA', 'F ENG C A LON - BRE']
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F NWG C A EDI - YOR
+--------------------------------
+S1906R
+	 []
+F1906M
+	 A NWY - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for BEL : {'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for PIC : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for SPA : {}
+	Accounted locs: {'STP'}
+	Convoy options for YOR : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'CLY': ['NTH', 'NWG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG'], 'WAL': ['NTH', 'ENG'], 'LVP': ['NTH', 'ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for BRE : {'BEL': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for GAS : {}
+	Accounted locs: {'STP'}
+	Target: KIE, no_luck: {'KIE', 'PAR', 'BRE'}, target_count: 1
+	 ['A MAR H', 'A NWY - STP', 'A BEL - DEN VIA', 'F NTH C A BEL - DEN', 'A GAS - BUR', 'A PIC - LON VIA', 'F ENG C A PIC - LON', 'A BRE - PAR', 'A SPA - POR', 'A YOR - EDI']
+W1906A
+	 ['F LVP B']
+S1907M
+	 A NWY - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for MAR : {}
+	Accounted locs: {'STP'}
+	Convoy options for EDI : {'BEL': ['NTH'], 'DEN': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NWG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG'], 'WAL': ['NTH', 'ENG'], 'LVP': ['NTH', 'ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for LVP : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for POR : {}
+	Accounted locs: {'STP'}
+	Convoy options for PAR : {}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for BUR : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for DEN : {'BEL': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG'], 'WAL': ['NTH', 'ENG'], 'LVP': ['NTH', 'ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for LON : {'BEL': ['ENG'], 'BRE': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Target: KIE, no_luck: {'KIE', 'PAR', 'BRE'}, target_count: 2
+	 ['A NWY - STP', 'F LVP - NAO', 'A BUR - RUH', 'A MAR - GAS', 'A PAR - PIC', 'A POR - SPA', 'A EDI - HOL VIA', 'F NTH C A EDI - HOL', 'A LON - BEL VIA', 'F ENG C A LON - BEL', 'A DEN - SWE']
+F1907M
+	 A NWY - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for NAO : {}
+	Accounted locs: {'STP'}
+	Convoy options for BEL : {'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for HOL : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for PIC : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for RUH : {}
+	Accounted locs: {'STP'}
+	Convoy options for SWE : {}
+	Accounted locs: {'STP'}
+	Convoy options for SPA : {}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for GAS : {}
+	Accounted locs: {'STP'}
+	Target: KIE, no_luck: {'KIE', 'PAR', 'BRE'}, target_count: 3
+	 ['A NWY - STP', 'A HOL - KIE', 'A RUH S A HOL - KIE', 'A BEL - DEN VIA', 'F NTH C A BEL - DEN', 'A SWE - FIN', 'A GAS - BUR', 'A PIC - LON VIA', 'F ENG C A PIC - LON', 'A SPA - MAR']
+F1907R
+	 []
+W1907A
+	 ['F EDI B', 'F LVP B']
+S1908M
+	 A FIN - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for MAR : {}
+	Accounted locs: {'STP'}
+	Convoy options for KIE : {}
+	Accounted locs: {'STP'}
+	Convoy options for EDI : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for NAO : {}
+	Accounted locs: {'STP'}
+	Convoy options for RUH : {}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWY : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NWG'], 'LVP': ['NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for BUR : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for DEN : {'BEL': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for LON : {'BEL': ['ENG'], 'BRE': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Picking new target
+	Target: BER, no_luck: {'BER', 'KIE', 'PAR', 'BRE'}, target_count: 0
+	 ['A FIN - STP', 'A KIE - MUN', 'A RUH S A KIE - MUN', 'A BUR S A KIE - MUN', 'A DEN - HOL VIA', 'F NTH C A DEN - HOL', 'A MAR - GAS', 'A NWY - SWE', 'A LON - BEL VIA', 'F ENG C A LON - BEL']
+S1908R
+	 []
+F1908M
+	 A FIN - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for EDI : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for NAO : {}
+	Accounted locs: {'STP'}
+	Convoy options for BEL : {'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for HOL : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for RUH : {}
+	Accounted locs: {'STP'}
+	Convoy options for SWE : {}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for BUR : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for GAS : {}
+	Accounted locs: {'STP'}
+	Target: BER, no_luck: {'BER', 'KIE', 'PAR', 'BRE'}, target_count: 1
+	 ['A MUN H', 'A FIN - STP', 'A BUR - MAR', 'A HOL - KIE', 'A RUH - MUN', 'A BEL - DEN VIA', 'F NTH C A BEL - DEN', 'A GAS - PAR', 'A SWE - NWY']
+W1908A
+	 ['A LON B', 'A LVP B']
+S1909M
+	 A FIN - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for MAR : {}
+	Accounted locs: {'STP'}
+	Convoy options for KIE : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for NAO : {}
+	Accounted locs: {'STP'}
+	Convoy options for MUN : {}
+	Accounted locs: {'STP'}
+	Convoy options for RUH : {}
+	Accounted locs: {'STP'}
+	Convoy options for PAR : {}
+	Accounted locs: {'STP'}
+	Convoy options for DEN : {'BEL': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for EDI : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWY : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NWG'], 'LVP': ['NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for LON : {'BEL': ['ENG'], 'BRE': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Target: BER, no_luck: {'BER', 'KIE', 'PAR', 'BRE'}, target_count: 2
+	 ['A FIN - STP', 'A KIE - BER', 'A MUN S A KIE - BER', 'A DEN - HOL VIA', 'F NTH C A DEN - HOL', 'A RUH - BUR', 'A MAR - GAS', 'A PAR - PIC', 'A NWY - SWE', 'A LON - BEL VIA', 'F ENG C A LON - BEL']
+S1909R
+	 []
+F1909M
+	 A FIN - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for NAO : {}
+	Accounted locs: {'STP'}
+	Convoy options for BUR : {}
+	Accounted locs: {'STP'}
+	Convoy options for PIC : {'BEL': ['ENG'], 'BRE': ['ENG'], 'LON': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for HOL : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for MUN : {}
+	Accounted locs: {'STP'}
+	Convoy options for BEL : {'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for SWE : {}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for EDI : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for GAS : {}
+	Accounted locs: {'STP'}
+	Target: BER, no_luck: {'BER', 'KIE', 'PAR', 'BRE'}, target_count: 3
+	 ['A BER H', 'A FIN - STP', 'A BUR - RUH', 'A HOL - KIE', 'A BEL - DEN VIA', 'F NTH C A BEL - DEN', 'A GAS - MAR', 'A PIC - PAR', 'A SWE - NWY', 'A MUN - SIL']
+W1909A
+	 ['A LON B', 'A LVP B']
+S1910M
+	 A NWY - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for KIE : {}
+	Accounted locs: {'STP'}
+	Convoy options for BER : {}
+	Accounted locs: {'STP'}
+	Convoy options for RUH : {}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for DEN : {'BEL': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for LON : {'BEL': ['ENG'], 'BRE': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for MAR : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for NAO : {}
+	Accounted locs: {'STP'}
+	Convoy options for FIN : {}
+	Accounted locs: {'STP'}
+	Convoy options for PAR : {}
+	Accounted locs: {'STP'}
+	Convoy options for SIL : {}
+	Accounted locs: {'STP'}
+	Convoy options for EDI : {}
+	Accounted locs: {'STP'}
+	Picking new target
+	Target: MOS, no_luck: {'MOS', 'KIE', 'BER', 'PAR', 'BRE'}, target_count: 0
+	 ['A NWY - STP', 'A FIN - SWE', 'A SIL - GAL', 'A BER - PRU', 'A DEN - BEL VIA', 'F NTH C A DEN - BEL', 'A KIE - MUN', 'A RUH - BUR', 'A MAR - GAS', 'A PAR - BRE', 'A LON - YOR VIA', 'F ENG C A LON - YOR', 'F NTH C A LON - YOR']
+The following errors were encountered and were cleared before processing.
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
 --------------------------------
 The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
+-- IMPOSSIBLE CONVOY ORDER: F ENG C A LON - YOR
 --------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - DEN
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
---------------------------------
-The following errors were encountered and were cleared before processing.
--- IMPOSSIBLE CONVOY ORDER: F ENG C A BEL - NWY
---------------------------------
+F1910M
+	 A NWY - STP
+	 A GAL - RUM
+	Convoy options for NTH : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for PRU : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for BRE : {'BEL': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for DEN : {'BEL': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for BUR : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for NAO : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for MUN : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for YOR : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for SWE : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for EDI : {}
+	Accounted locs: {'RUM', 'STP'}
+	Convoy options for GAS : {}
+	Accounted locs: {'RUM', 'STP'}
+	Target: MOS, no_luck: {'MOS', 'KIE', 'BER', 'PAR', 'BRE'}, target_count: 1
+	 ['A NWY - STP', 'A GAL - RUM', 'A PRU - LVN', 'A MUN - SIL', 'A SWE - FIN', 'A BUR - BEL', 'A DEN - KIE', 'A GAS - MAR', 'A BRE - CLY VIA', 'F ENG C A BRE - CLY', 'F NTH C A BRE - CLY', 'F NWG C A BRE - CLY', 'A YOR - LON']
+W1910A
+	 ['F LVP B']
+S1911M
+	 A LVN - STP
+	 A RUM - BUL
+	Convoy options for NTH : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for KIE : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for EDI : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for CLY : {'LVP': ['NAO'], 'EDI': ['NWG'], 'NWY': ['NWG'], 'BEL': ['NWG', 'NTH'], 'DEN': ['NWG', 'NTH'], 'HOL': ['NWG', 'NTH'], 'LON': ['NWG', 'NTH'], 'YOR': ['NWG', 'NTH'], 'BRE': ['NAO', 'IRI', 'ENG'], 'PIC': ['NAO', 'IRI', 'ENG'], 'WAL': ['NAO', 'IRI']}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for BEL : {'BRE': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for NWY : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NWG'], 'LVP': ['NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for LON : {'BEL': ['ENG'], 'BRE': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for MAR : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for LVP : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for NAO : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for FIN : {}
+	Accounted locs: {'BUL', 'STP'}
+	Convoy options for SIL : {}
+	Accounted locs: {'BUL', 'STP'}
+	Target: MOS, no_luck: {'MOS', 'KIE', 'BER', 'PAR', 'BRE'}, target_count: 2
+	 ['A LVN - STP', 'A RUM - BUL', 'A FIN - SWE', 'A NWY - DEN VIA', 'F NTH C A NWY - DEN', 'A SIL - GAL', 'A KIE - BER', 'A BEL - BUR', 'A MAR - GAS', 'A CLY - BRE VIA', 'F NAO C A CLY - BRE', 'F IRI C A CLY - BRE', 'F ENG C A CLY - BRE', 'A LON - YOR']
+F1911M
+	 A LVN - STP
+	Convoy options for NTH : {}
+	Accounted locs: {'STP'}
+	Convoy options for BER : {}
+	Accounted locs: {'STP'}
+	Convoy options for BRE : {'BEL': ['ENG'], 'LON': ['ENG'], 'PIC': ['ENG'], 'WAL': ['ENG'], 'DEN': ['ENG', 'NTH'], 'EDI': ['ENG', 'NTH'], 'HOL': ['ENG', 'NTH'], 'NWY': ['ENG', 'NTH'], 'YOR': ['ENG', 'NTH'], 'CLY': ['ENG', 'NTH', 'NWG'], 'LVP': ['ENG', 'IRI']}
+	Accounted locs: {'STP'}
+	Convoy options for DEN : {'BEL': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'YOR': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for IRI : {}
+	Accounted locs: {'STP'}
+	Convoy options for BUR : {}
+	Accounted locs: {'STP'}
+	Convoy options for ENG : {}
+	Accounted locs: {'STP'}
+	Convoy options for LVP : {}
+	Accounted locs: {'STP'}
+	Convoy options for NWG : {}
+	Accounted locs: {'STP'}
+	Convoy options for NAO : {}
+	Accounted locs: {'STP'}
+	Convoy options for GAL : {}
+	Accounted locs: {'STP'}
+	Convoy options for YOR : {'BEL': ['NTH'], 'DEN': ['NTH'], 'EDI': ['NTH'], 'HOL': ['NTH'], 'LON': ['NTH'], 'NWY': ['NTH'], 'CLY': ['NTH', 'NWG'], 'LVP': ['NTH', 'NWG', 'NAO'], 'WAL': ['NTH', 'ENG'], 'BRE': ['NTH', 'ENG'], 'PIC': ['NTH', 'ENG']}
+	Accounted locs: {'STP'}
+	Convoy options for SWE : {}
+	Accounted locs: {'STP'}
+	Convoy options for EDI : {}
+	Accounted locs: {'STP'}
+	Convoy options for GAS : {}
+	Accounted locs: {'STP'}
+	Target: MOS, no_luck: {'MOS', 'KIE', 'BER', 'PAR', 'BRE'}, target_count: 3
+	 ['A BUL H', 'A LVN - STP', 'A GAL - UKR', 'A BER - PRU', 'A SWE - FIN', 'A BUR - MUN', 'A DEN - NWY VIA', 'F NTH C A DEN - NWY', 'A GAS - MAR', 'A BRE - BEL VIA', 'F ENG C A BRE - BEL', 'A YOR - LON']
