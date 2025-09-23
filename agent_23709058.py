@@ -374,7 +374,7 @@ class StudentAgent(Agent):
                     orders.append(f"{supporter_type} {supporter} S {attacker_type} {attacker} - {target}")
                     accounted_unit_locs.add(supporter)
 
-        # Case 5: Any fleets should try move to adjacent sea provinces if possible to vacate space for army units and allow for convoys
+        # Case 3.5: Any fleets should try move to adjacent sea provinces if possible to vacate space for army units and allow for convoys
         for loc in unit_locs - accounted_unit_locs:
             if unit_types[loc] == 'F':
                 if self.state_graph.nodes[loc.upper()]['type'] == 'WATER':
@@ -415,7 +415,7 @@ class StudentAgent(Agent):
                 else:
                     accounted_unit_locs.add(loc)
 
-        # Case 5: For remaining units, move as many units as possible to be adjacent to the target
+        # Case 4: For remaining units, move as many units as possible to be adjacent to the target
         remaining_units = list(unit_locs - accounted_unit_locs - accounted_fleet_locs)
         # Pick the closest enemy supply center as target every 3 movement phases, or if the target is captured
         if self.target_count == self.RETRY_COUNT or not self.target_loc or \
