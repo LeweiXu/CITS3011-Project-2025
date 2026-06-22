@@ -9,7 +9,7 @@ class StudentAgent(Agent):
     DEBUG = False
 
     @timeout_decorator.timeout(1)
-    def __init__(self, agent_name='Aggressive Agent'):
+    def __init__(self, agent_name='Aggressive Agent by Lingwei'):
         super().__init__(agent_name)
 
     @timeout_decorator.timeout(1)
@@ -21,7 +21,7 @@ class StudentAgent(Agent):
         self.debug = self.DEBUG
         self.target_loc = None
         self.failed_targets = set()
-        self.england_wait_fleets = (3, 12)
+        self.england_wait_fleets = (2, 12)
         self.phase_count = 0
         self.update_state_graph()
 
@@ -86,11 +86,6 @@ class StudentAgent(Agent):
 
     @timeout_decorator.timeout(1)
     def get_convoy_options(self, army_loc, accounted_unit_locs):
-        """
-        Get dict of possible convoy destinations for an army at army_loc.
-        Keys are destination locations, values are lists of fleets involved in the convoy.
-        Only the path with the smallest number of fleets is kept for each destination.
-        """
         destinations = {}
 
         # Only proceed if army_loc is a COAST node with our army
@@ -99,24 +94,24 @@ class StudentAgent(Agent):
             return destinations
 
         # DFS from all adjacent WATER nodes that is occupied by own fleet
-        for neighbor in self.state_graph.neighbors(army_loc):
-            neighbor_data = self.state_graph.nodes[neighbor]
-            if neighbor in accounted_unit_locs: continue
-            if neighbor_data['type'] == 'WATER' and neighbor_data['units'] == (self.own_power, 'F') and self.state_graph.get_edge_data(army_loc, neighbor).get('fleet'):
-                stack = [(neighbor, [neighbor], set([army_loc, neighbor]))]
+        for neighbour in self.state_graph.neighbors(army_loc):
+            neighbour_data = self.state_graph.nodes[neighbour]
+            if neighbour in accounted_unit_locs: continue
+            if neighbour_data['type'] == 'WATER' and neighbour_data['units'] == (self.own_power, 'F') and self.state_graph.get_edge_data(army_loc, neighbour).get('fleet'):
+                stack = [(neighbour, [neighbour], set([army_loc, neighbour]))]
                 while stack:
                     cur, path, visited = stack.pop()
-                    for next_neighbor in self.state_graph.neighbors(cur):
-                        next_data = self.state_graph.nodes[next_neighbor]
-                        if next_neighbor == army_loc:
+                    for next_neighbour in self.state_graph.neighbors(cur):
+                        next_data = self.state_graph.nodes[next_neighbour]
+                        if next_neighbour == army_loc:
                             continue
-                        if next_data['type'] == 'COAST' and self.state_graph.get_edge_data(cur, next_neighbor).get('fleet'):
+                        if next_data['type'] == 'COAST' and self.state_graph.get_edge_data(cur, next_neighbour).get('fleet'):
                             # Only keep the path with the smallest number of fleets
-                            if next_neighbor not in destinations or len(path) < len(destinations[next_neighbor]):
-                                destinations[next_neighbor] = path.copy()
-                        elif next_data['type'] == 'WATER' and next_neighbor not in visited and next_data['units'] == (self.own_power, 'F') \
-                        and self.state_graph.get_edge_data(cur, next_neighbor).get('fleet'):
-                            stack.append((next_neighbor, path + [next_neighbor], visited | set([next_neighbor])))
+                            if next_neighbour not in destinations or len(path) < len(destinations[next_neighbour]):
+                                destinations[next_neighbour] = path.copy()
+                        elif next_data['type'] == 'WATER' and next_neighbour not in visited and next_data['units'] == (self.own_power, 'F') \
+                        and self.state_graph.get_edge_data(cur, next_neighbour).get('fleet'):
+                            stack.append((next_neighbour, path + [next_neighbour], visited | set([next_neighbour])))
         
         # Remove EC, WC, SC (not compatible with game engine)
         destinations = {dest[:3]: fleets for dest, fleets in destinations.items()}
@@ -124,38 +119,33 @@ class StudentAgent(Agent):
 
     @timeout_decorator.timeout(1)
     def find_closest_unoccupied(self, origin, target, target_locs, accounted_unit_locs):
-        """
-        Returns a tuple (loc, fleets) where loc is the closest location to 'target' that is unoccupied,
-        not in target_locs, and adjacent to (origin). If loc is only reachable via convoy, fleets is a list of fleets involved in the convoy.
-        If none found, returns the closest adjacent province (not in target_locs) on the shortest path to target, even if occupied.
-        """
         origin_node_data = self.state_graph.nodes[origin]
         origin_unit_type = origin_node_data['units'][1]
         candidates = []
         alt_candidates = []
 
-        # Find all neighbors (direct and convoy) from origin
-        neighbors = set(self.state_graph.neighbors(origin))
+        # Find all neighbours (direct + convoy) from origin
+        neighbours = set(self.state_graph.neighbors(origin))
         convoy_options = self.get_convoy_options(origin, accounted_unit_locs)
         for dest, fleets in convoy_options.items():
             for fleet in fleets:
                 if fleet in accounted_unit_locs:
                     break
             else:
-                neighbors.add(dest)
+                neighbours.add(dest)
 
-        for neighbor in neighbors:
-            if neighbor in target_locs: continue
-            node_data = self.state_graph.nodes[neighbor]
-            fleets = convoy_options[neighbor] if neighbor in convoy_options else None
+        for neighbour in neighbours:
+            if neighbour in target_locs: continue
+            node_data = self.state_graph.nodes[neighbour]
+            fleets = convoy_options[neighbour] if neighbour in convoy_options else None
 
             # For direct adjacency, check abuts, for convoy, skip abuts check
-            if not neighbor in convoy_options and not self.game.map.abuts(origin_unit_type, origin, '-', neighbor):
+            if not neighbour in convoy_options and not self.game.map.abuts(origin_unit_type, origin, '-', neighbour):
                 continue
 
-            # BFS from neighbor to target to get distance
-            visited = {neighbor}
-            q = deque([(neighbor, 0)])
+            # BFS from neighbour to target to get distance
+            visited = {neighbour}
+            q = deque([(neighbour, 0)])
             dist = None
             while q:
                 cur, d = q.popleft()
@@ -168,9 +158,9 @@ class StudentAgent(Agent):
                         q.append((nn, d + 1))
             if dist is not None:
                 if node_data['units'][0] is None:
-                    candidates.append((dist, neighbor, fleets))
+                    candidates.append((dist, neighbour, fleets))
                 else:
-                    alt_candidates.append((dist, neighbor, fleets))
+                    alt_candidates.append((dist, neighbour, fleets))
 
         if candidates:
             candidates.sort()
@@ -201,13 +191,13 @@ class StudentAgent(Agent):
             if cur in enemy_supply_centers and dist < min_dist and cur not in self.failed_targets:
                 target = cur
                 min_dist = dist
-                break  # Uncomment to pick the first found, not necessarily the closest
-            for neighbor in self.state_graph.neighbors(cur):
-                if neighbor in visited:
+                break 
+            for neighbour in self.state_graph.neighbors(cur):
+                if neighbour in visited:
                     continue
-                visited.add(neighbor)
-                prev[neighbor] = cur
-                q.append((neighbor, dist + 1))
+                visited.add(neighbour)
+                prev[neighbour] = cur
+                q.append((neighbour, dist + 1))
         return target
 
     @timeout_decorator.timeout(1)        
@@ -215,7 +205,6 @@ class StudentAgent(Agent):
         unit_distances = []
         for loc in remaining_units:
             unit_type = unit_types[loc]
-            # Compute distance from loc to target
             visited = {loc}
             q = deque([(loc, 0)])
             dist_to_target = None
@@ -224,15 +213,15 @@ class StudentAgent(Agent):
                 if cur == target:
                     dist_to_target = dist
                     break
-                for neighbor in self.state_graph.neighbors(cur):
-                    if neighbor in visited:
+                for neighbour in self.state_graph.neighbors(cur):
+                    if neighbour in visited:
                         continue
-                    edge = self.state_graph.get_edge_data(cur, neighbor) or {}
+                    edge = self.state_graph.get_edge_data(cur, neighbour) or {}
                     can_traverse = (unit_type == 'A' and edge.get('army')) or (unit_type == 'F' and edge.get('fleet'))
                     if not can_traverse:
                         continue
-                    visited.add(neighbor)
-                    q.append((neighbor, dist + 1))
+                    visited.add(neighbour)
+                    q.append((neighbour, dist + 1))
             unit_distances.append((dist_to_target if dist_to_target is not None else float('inf'), loc))
         
         return unit_distances
@@ -259,9 +248,22 @@ class StudentAgent(Agent):
                     fleet_count = sum(1 for u in my_units if u.startswith('F'))
                     army_count = sum(1 for u in my_units if u.startswith('A'))
                     total = fleet_count + army_count
-                    fleet_ratio = fleet_count / total if total > 0 else 0
-                    if self.own_power == "ENGLAND": fleet_ratio_threshold = 0.4
-                    else: fleet_ratio_threshold = 0.1
+                    if total <= 0: return []
+                    fleet_ratio = fleet_count / total
+                    if self.own_power == "ENGLAND":
+                        fleet_ratio_threshold = 0.4
+                    elif self.own_power == "FRANCE":
+                        fleet_ratio_threshold = 0
+                    elif self.own_power == "GERMANY":
+                        fleet_ratio_threshold = 0
+                    elif self.own_power == "ITALY":
+                        fleet_ratio_threshold = 0.15
+                    elif self.own_power == "AUSTRIA":
+                        fleet_ratio_threshold = 0.05
+                    elif self.own_power == "TURKEY":
+                        fleet_ratio_threshold = 0.1
+                    elif self.own_power == "RUSSIA":
+                        fleet_ratio_threshold = 0.1
 
                     if len(possible_builds) == 3:
                         if fleet_ratio < fleet_ratio_threshold:
@@ -292,23 +294,23 @@ class StudentAgent(Agent):
                 orders.append(f"{unit_types[loc]} {loc} H")
                 accounted_unit_locs.add(loc)
 
-        # Case 2: For remaining units, check neighboring nodes for unoccupied supply centers and move there if possible.
+        # Case 2: For remaining units, check neighbouring nodes for unoccupied supply centers and move there if possible.
         for loc in unit_locs - accounted_unit_locs:
             if self.own_power == "ENGLAND" and unit_types[loc] == 'F' and self.england_wait_fleets[0] < self.phase_count <= self.england_wait_fleets[1]:
                 continue
-            neighbors = [neighbor for neighbor in self.state_graph.neighbors(loc.upper())]
-            for neighbor in neighbors:
-                edge_data = self.state_graph.get_edge_data(loc.upper(), neighbor)
-                node_data = self.state_graph.nodes[neighbor]
-                neighbor_power, neighbor_unit_type = node_data['units']
+            neighbours = [neighbour for neighbour in self.state_graph.neighbors(loc.upper())]
+            for neighbour in neighbours:
+                edge_data = self.state_graph.get_edge_data(loc.upper(), neighbour)
+                node_data = self.state_graph.nodes[neighbour]
+                neighbour_power, neighbour_unit_type = node_data['units']
                 if unit_types[loc] == 'A' and edge_data.get('army') != True: continue
                 elif unit_types[loc] == 'F' and edge_data.get('fleet') != True: continue
 
-                if node_data.get('is_supply') == True and neighbor_power is None and node_data.get('owner') != self.own_power:
-                    if neighbor in accounted_locs: continue
-                    orders.append(f"{unit_types[loc]} {loc} - {neighbor}")
+                if node_data.get('is_supply') == True and neighbour_power is None and node_data.get('owner') != self.own_power:
+                    if neighbour in accounted_locs: continue
+                    orders.append(f"{unit_types[loc]} {loc} - {neighbour}")
                     if self.debug: print('\t', orders[-1])
-                    accounted_locs.add(neighbor)
+                    accounted_locs.add(neighbour)
                     accounted_unit_locs.add(loc)
                     break
 
@@ -316,16 +318,16 @@ class StudentAgent(Agent):
         for loc in unit_locs - accounted_unit_locs:
             convoy_options = self.get_convoy_options(loc.upper(), accounted_unit_locs)
             if convoy_options == {}: continue
-            neighbors = convoy_options.keys()
-            for neighbor in neighbors:
-                node_data = self.state_graph.nodes[neighbor]
-                if node_data.get('is_supply') == True and neighbor_power is None and node_data.get('owner') != self.own_power and not node_data['units'][0]:
-                    if neighbor in accounted_locs: continue
-                    orders.append(f"A {loc} - {neighbor} VIA")
-                    for fleet in convoy_options[neighbor]:
-                        orders.append(f"F {fleet} C A {loc} - {neighbor}")
-                    accounted_locs.add(neighbor)
-                    for fleet in convoy_options[neighbor]:
+            neighbours = convoy_options.keys()
+            for neighbour in neighbours:
+                node_data = self.state_graph.nodes[neighbour]
+                if node_data.get('is_supply') == True and neighbour_power is None and node_data.get('owner') != self.own_power and not node_data['units'][0]:
+                    if neighbour in accounted_locs: continue
+                    orders.append(f"A {loc} - {neighbour} VIA")
+                    for fleet in convoy_options[neighbour]:
+                        orders.append(f"F {fleet} C A {loc} - {neighbour}")
+                    accounted_locs.add(neighbour)
+                    for fleet in convoy_options[neighbour]:
                         accounted_unit_locs.add(fleet)
                     accounted_unit_locs.add(loc)
                     break
@@ -360,7 +362,7 @@ class StudentAgent(Agent):
                             attacker = loc
                             break
                 if attacker is None:
-                    attacker = adjacent_friendly[0]  # fallback to first
+                    attacker = adjacent_friendly[0] 
 
                 attacker_type = unit_types[attacker]
                 if target in accounted_locs: continue
@@ -381,17 +383,16 @@ class StudentAgent(Agent):
                     accounted_fleet_locs.add(loc)
                     continue
                 # Find all adjacent WATER nodes
-                water_neighbors = [
-                    neighbor for neighbor in self.state_graph.neighbors(loc.upper())
-                    if self.state_graph.nodes[neighbor]['type'] == 'WATER'
-                    and self.state_graph.get_edge_data(loc.upper(), neighbor).get('fleet') == True
-                    and self.state_graph.nodes[neighbor]['units'][0] is None
+                water_neighbours = [
+                    neighbour for neighbour in self.state_graph.neighbors(loc.upper())
+                    if self.state_graph.nodes[neighbour]['type'] == 'WATER'
+                    and self.state_graph.get_edge_data(loc.upper(), neighbour).get('fleet') == True
+                    and self.state_graph.nodes[neighbour]['units'][0] is None
                 ]
-                # For each water neighbor, compute distance to closest own army unit
+                # For each water neighbour, calc distance to closest own army unit
                 min_dist = float('inf')
                 best_water = None
-                for water in water_neighbors:
-                    # Find closest own army unit
+                for water in water_neighbours:
                     for army_loc in unit_locs:
                         if unit_types[army_loc] != 'A':
                             continue
@@ -404,10 +405,10 @@ class StudentAgent(Agent):
                                     min_dist = dist
                                     best_water = water
                                 break
-                            for neighbor in self.state_graph.neighbors(cur):
-                                if neighbor not in visited:
-                                    visited.add(neighbor)
-                                    q.append((neighbor, dist + 1))
+                            for neighbour in self.state_graph.neighbors(cur):
+                                if neighbour not in visited:
+                                    visited.add(neighbour)
+                                    q.append((neighbour, dist + 1))
                 if best_water and best_water not in accounted_locs:
                     orders.append(f"F {loc} - {best_water}")
                     accounted_locs.add(best_water)
@@ -417,7 +418,6 @@ class StudentAgent(Agent):
 
         # Case 4: For remaining units, move as many units as possible to be adjacent to the target
         remaining_units = list(unit_locs - accounted_unit_locs - accounted_fleet_locs)
-        # Pick the closest enemy supply center as target every 3 movement phases, or if the target is captured
         if self.target_count == self.RETRY_COUNT or not self.target_loc or \
             (self.target_loc and self.state_graph.nodes[self.target_loc]['owner'] == self.own_power):
             if self.debug: print("\tPicking new target")
